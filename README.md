@@ -1,3 +1,4 @@
+
 ![python_vesion](https://img.shields.io/badge/Python%20-%3E%3D%203.5-green.svg)  
 
 [EverydayWechat](https://github.com/sfyc23/EverydayWechat) 是基于 Python3 与 [Itchat](https://github.com/littlecodersh/ItChat) 的微信小工具。  
@@ -178,12 +179,6 @@ python run.py
 之后一段时间再运行，微信会保持登录状态，不需要再扫码。  
 如果需要切换用户，则在 *_config.yaml* 文件中，修改 *is_forced_switch* 的属性为 True。
 
-## 示例截图：
-
-![日志](https://raw.githubusercontent.com/sfyc23/image/master/vlog/20190613171703.png)
-
-![自动回复](https://raw.githubusercontent.com/sfyc23/image/master/vlog/20190613162524.png)
-
 ## 提 [issues](https://github.com/sfyc23/EverydayWechat/issues) 说明
 
 - **检查是否是最新的代码，检查是否是 Python3.5+，检查依赖有没有安装完整**。
@@ -196,7 +191,7 @@ python run.py
 
 ## Credits 致谢
 
-本项目受以下项目启发，参考了其中一部分思路，向这些开发者表示感谢。
+本项目跑的大神的成本，稍微改动了一下，玩了玩，大神就是屌
 
 - [wechatBot](https://github.com/gengchen528/wechatBot) —— 微信每日说，每日自动发送微信消息（Node + Wechaty）。  
 - [NodeMail](https://github.com/Vincedream/NodeMail) —— 用 Node 写一个爬虫脚本每天定时给女朋友发一封暖心邮件。  
@@ -207,11 +202,3 @@ python run.py
 ## LICENSE
 [MIT License](https://github.com/sfyc23/EverydayWechat/blob/master/LICENSE)
 
-## 交流群
-
-群已满。加我小号微信：[sfyc1314](https://raw.githubusercontent.com/sfyc23/image/master/vlog/20190614125724.png)，备注：Github。我拉你入群。
- ![我的微信](https://raw.githubusercontent.com/sfyc23/image/master/vlog/20190614125724.png)
- 
-## 联系我
-
-微博：[诗风悠存](https://weibo.com/sfyc23)
