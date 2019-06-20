@@ -1,0 +1,64 @@
+# 配置文件请严格遵循 yaml 语法格式，yaml 学习地址:
+#  https://ansible-tran.readthedocs.io/en/latest/docs/YAMLSyntax.html
+#  http://einverne.github.io/post/2015/08/yaml.html
+
+# 是否强制切换微信号
+is_forced_switch: False
+
+# 是否开启自动回复
+is_auto_relay: True
+
+# 机器人渠道（1: 图灵机器人，2: 一个AI ,3 : 青云客)
+bot_channel: 2
+
+#图灵机器人(http://www.tuling123.com/)免费用户每天可用 100 条。
+#请在官网注册并申请 apikey ,userID。
+turing_conf:
+  apiKey: 'd5e2beebe459423dabaeab84f9c9dfe8'
+  userId: '465433'
+
+# 一个 Al (http://www.yige.ai/), 16EF6A50EC5912DB1428147256CFA4FC
+#  client_token.（客户端访问令牌）默认这个是博主自己申请的。朋友们最好自行申请并替换。 6BF1A4CA9255CE01C98BBC7BEF5C7A3B
+yigeai_conf:
+  client_token: '6BF1A4CA9255CE01C98BBC7BEF5C7A3B'
+
+# 指定自动回复的好友名单。（填：文件传输助手，可回复自己，测试效果）
+# - '好友1'
+# - '好友2'
+auto_reply_names:
+  - '叶群'
+  - '吴红红'
+  - '姜玲'
+  - 'ceair-晁银银'
+  - 'ceair-刘姿廷'
+
+#------------------------ 定时时间功能--------------------------
+alarm_info:
+  #True 开启定时提醒，False 关闭
+  is_alarm: True
+  #定时发送时间
+  alarm_timed: '15:00'
+
+girlfriend_infos:
+  - #女友微信昵称或者备注名，不能输入微信号。（如填：文件传输助手，发消息到文件传输助手，测试效果）
+    wechat_name: '文件传输助手'
+    #女友所在城市，用于发送天气。（可空）
+    city_name: '上海'
+    # 格言渠道（1 : ONE●一个，2 : 词霸（每日英语，双语）4 : 一言，5：笑话)(可空)
+    dictum_channel : 1
+    # 从那天开始勾搭的(最终效果为：宝贝这是我们在一起的第 111 天)（可空）
+    start_date: '2018-10-10'
+    # 后缀（可空）
+    sweet_words: '来自最爱你的我。'
+
+#  如果你有多个好友需要发送，则参照这个样式，复制即可
+#  如不需要，则删除或注解下面所有的数据
+  -
+    # 群聊名称，必须要把需要的群聊保存到通讯录。
+    wechat_name: 'ceair-晁银银'
+    city_name: '上海'
+    dictum_channel : 1
+    start_date: '2019-06-20'
+    sweet_words: '汪汪'
+
+
